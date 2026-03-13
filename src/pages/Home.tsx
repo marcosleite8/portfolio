@@ -29,6 +29,8 @@ export default function Home() {
         
         {/* Texto abaixo do logo */}
         <p className="text-xs text-gray-400 tracking-widest uppercase text-center relative z-10 mt-6">
+          <br/>
+          <br/>
           Systems. Strategy. Architecture.<br/>(Coming Soon)
         </p>
       </a>
