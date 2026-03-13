@@ -1,14 +1,16 @@
 import React from 'react';
-import { Layout, Database, Code, Shield, Globe, Users, Target, Terminal } from 'lucide-react';
-import { SiGithub, SiTerraform, SiKubernetes, SiGooglecloud } from 'react-icons/si';
-import { FaAws, FaMicrosoft } from 'react-icons/fa';
+import { Target } from 'lucide-react';
+import { SiGithub, SiTerraform, SiKubernetes, SiGooglecloud, SiJavascript, SiHtml5, SiScrumalliance, SiDotnet, SiGoogle } from 'react-icons/si';
+import { FaAws, FaMicrosoft, FaDatabase } from 'react-icons/fa';
+import { TbBrandCSharp } from 'react-icons/tb';
+import { MdSecurity } from 'react-icons/md';
 import { IconType } from 'react-icons';
 
 export default function Skills() {
   const skills = [
     {
       title: "Microsoft Power Pages",
-      icon: <Layout size={32} />,
+      icon: <FaMicrosoft size={32} />,
       color: "text-[#FF7A59]",
       bg: "bg-[#FF7A59]/10",
       border: "hover:border-[#FF7A59]/50",
@@ -16,7 +18,7 @@ export default function Skills() {
     },
     {
       title: "Dataverse",
-      icon: <Database size={32} />,
+      icon: <FaDatabase size={32} />,
       color: "text-blue-400",
       bg: "bg-blue-400/10",
       border: "hover:border-blue-500/50",
@@ -24,7 +26,7 @@ export default function Skills() {
     },
     {
       title: "Power Platform",
-      icon: <Code size={32} />,
+      icon: <FaMicrosoft size={32} />,
       color: "text-green-400",
       bg: "bg-green-400/10",
       border: "hover:border-green-500/50",
@@ -32,7 +34,12 @@ export default function Skills() {
     },
     {
       title: "JavaScript & HTML",
-      icon: <Globe size={32} />,
+      icon: (
+        <div className="flex gap-2">
+          <SiJavascript size={28} />
+          <SiHtml5 size={28} />
+        </div>
+      ),
       color: "text-yellow-400",
       bg: "bg-yellow-400/10",
       border: "hover:border-yellow-500/50",
@@ -40,7 +47,7 @@ export default function Skills() {
     },
     {
       title: "Cybersecurity Basics",
-      icon: <Shield size={32} />,
+      icon: <SiGoogle size={32} />,
       color: "text-purple-400",
       bg: "bg-purple-400/10",
       border: "hover:border-purple-500/50",
@@ -48,7 +55,7 @@ export default function Skills() {
     },
     {
       title: "Agile Methodologies",
-      icon: <Users size={32} />,
+      icon: <SiScrumalliance size={32} />,
       color: "text-pink-400",
       bg: "bg-pink-400/10",
       border: "hover:border-pink-500/50",
@@ -56,7 +63,12 @@ export default function Skills() {
     },
     {
       title: "C# & .NET Framework",
-      icon: <Terminal size={32} />,
+      icon: (
+        <div className="flex gap-2">
+          <TbBrandCSharp size={32} />
+          <SiDotnet size={32} />
+        </div>
+      ),
       color: "text-indigo-400",
       bg: "bg-indigo-400/10",
       border: "hover:border-indigo-500/50",
@@ -95,7 +107,7 @@ export default function Skills() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skills.map((skill, index) => (
-            <div key={index} className={`bg-[#25282E] rounded-3xl p-6 border border-white/5 transition-colors group ${skill.border}`}>
+            <div key={index} className={`bg-[#25282E] rounded-3xl p-6 border border-white/5 transition-colors group flex flex-col items-center text-center ${skill.border}`}>
               <div className={`w-14 h-14 mb-6 rounded-xl flex items-center justify-center ${skill.color} ${skill.bg}`}>
                 {skill.icon}
               </div>

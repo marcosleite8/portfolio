@@ -1,5 +1,7 @@
 import React from 'react';
-import { Lock, ChevronRight, Database, Code, Layout, Server, Book, Briefcase, Github, Globe, Shield, Linkedin } from 'lucide-react';
+import { Lock, ChevronRight, Book, Briefcase, Github, Globe, Linkedin, Server } from 'lucide-react';
+import { FaMicrosoft, FaDatabase } from 'react-icons/fa';
+import { SiGoogle } from 'react-icons/si';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
@@ -36,15 +38,15 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-1">
           
           {/* Skill 1 */}
-          <Link to="/skills" className="bg-[#1E2126] rounded-2xl p-5 border border-white/5 relative group hover:border-[#FF7A59]/50 transition-colors flex flex-col">
+          <Link to="/skills" className="bg-[#1E2126] rounded-2xl p-5 border border-white/5 relative group hover:border-[#FF7A59]/50 transition-colors flex flex-col items-center text-center">
             <div className="w-10 h-10 mb-4 text-[#FF7A59] bg-[#FF7A59]/10 rounded-lg flex items-center justify-center">
-              <Layout size={24} />
+              <FaMicrosoft size={24} />
             </div>
             <h3 className="text-sm font-semibold mb-2">POWER PAGES</h3>
             <ul className="text-xs text-gray-400 space-y-1 flex-1">
-              <li>• Enterprise Portals</li>
-              <li>• Liquid & JavaScript</li>
-              <li>• REST API Integration</li>
+              <li>Enterprise Portals</li>
+              <li>Liquid & JavaScript</li>
+              <li>REST API Integration</li>
             </ul>
             <button className="absolute bottom-4 right-4 w-6 h-6 bg-[#FF7A59] rounded-full flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
               <ChevronRight size={14} />
@@ -52,15 +54,15 @@ export default function Home() {
           </Link>
 
           {/* Skill 2 */}
-          <Link to="/skills" className="bg-[#1E2126] rounded-2xl p-5 border border-white/5 relative group hover:border-blue-500/50 transition-colors flex flex-col">
+          <Link to="/skills" className="bg-[#1E2126] rounded-2xl p-5 border border-white/5 relative group hover:border-blue-500/50 transition-colors flex flex-col items-center text-center">
             <div className="w-10 h-10 mb-4 text-blue-400 bg-blue-400/10 rounded-lg flex items-center justify-center">
-              <Database size={24} />
+              <FaDatabase size={24} />
             </div>
             <h3 className="text-sm font-semibold mb-2">DATAVERSE</h3>
             <ul className="text-xs text-gray-400 space-y-1 flex-1">
-              <li>• Data Modeling</li>
-              <li>• Security & Roles</li>
-              <li>• Enterprise Solutions</li>
+              <li>Data Modeling</li>
+              <li>Security & Roles</li>
+              <li>Enterprise Solutions</li>
             </ul>
             <button className="absolute bottom-4 right-4 w-6 h-6 bg-[#FF7A59] rounded-full flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
               <ChevronRight size={14} />
@@ -68,15 +70,15 @@ export default function Home() {
           </Link>
 
           {/* Skill 3 */}
-          <Link to="/skills" className="bg-[#1E2126] rounded-2xl p-5 border border-white/5 relative group hover:border-green-500/50 transition-colors flex flex-col">
+          <Link to="/skills" className="bg-[#1E2126] rounded-2xl p-5 border border-white/5 relative group hover:border-green-500/50 transition-colors flex flex-col items-center text-center">
             <div className="w-10 h-10 mb-4 text-green-400 bg-green-400/10 rounded-lg flex items-center justify-center">
-              <Code size={24} />
+              <FaMicrosoft size={24} />
             </div>
             <h3 className="text-sm font-semibold mb-2">POWER PLATFORM</h3>
             <ul className="text-xs text-gray-400 space-y-1 flex-1">
-              <li>• Power Apps</li>
-              <li>• Power Automate</li>
-              <li>• Microsoft Ecosystem</li>
+              <li>Power Apps</li>
+              <li>Power Automate</li>
+              <li>Microsoft Ecosystem</li>
             </ul>
             <button className="absolute bottom-4 right-4 w-6 h-6 bg-[#FF7A59] rounded-full flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
               <ChevronRight size={14} />
@@ -84,15 +86,15 @@ export default function Home() {
           </Link>
 
           {/* Skill 4 */}
-          <Link to="/skills" className="bg-[#1E2126] rounded-2xl p-5 border border-white/5 relative group hover:border-yellow-500/50 transition-colors flex flex-col">
+          <Link to="/skills" className="bg-[#1E2126] rounded-2xl p-5 border border-white/5 relative group hover:border-yellow-500/50 transition-colors flex flex-col items-center text-center">
             <div className="w-10 h-10 mb-4 text-yellow-400 bg-yellow-400/10 rounded-lg flex items-center justify-center">
-              <Shield size={24} />
+              <SiGoogle size={24} />
             </div>
             <h3 className="text-sm font-semibold mb-2">CYBERSECURITY</h3>
             <ul className="text-xs text-gray-400 space-y-1 flex-1">
-              <li>• Google Certified</li>
-              <li>• Threat Intelligence</li>
-              <li>• Network Security</li>
+              <li>Google Certified</li>
+              <li>Threat Intelligence</li>
+              <li>Network Security</li>
             </ul>
             <button className="absolute bottom-4 right-4 w-6 h-6 bg-[#FF7A59] rounded-full flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
               <ChevronRight size={14} />
