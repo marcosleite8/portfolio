@@ -11,8 +11,13 @@ export default function Home() {
       {/* --- ROW 1 --- */}
       
       {/* Brand */}
-      <div className="lg:col-span-4 bg-[#25282E] rounded-3xl p-8 flex flex-col items-center justify-center border border-white/5 relative overflow-hidden group">
-        {/* Efeito de brilho ao passar o mouse - mantido conforme solicitado */}
+      <a 
+        href="https://saevelis.com" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="lg:col-span-4 bg-[#25282E] rounded-3xl p-8 flex flex-col items-center justify-center border border-white/5 relative overflow-hidden group cursor-pointer hover:border-white/20 transition-all duration-300"
+      >
+        {/* Efeito de brilho ao passar o mouse */}
         <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
         
         {/* Seu Logo */}
@@ -21,12 +26,12 @@ export default function Home() {
           alt="Saevelis Logo" 
           className="w-full max-w-[280px] h-auto object-contain relative z-10 transition-transform duration-500 group-hover:scale-105"
         />
-        <p className="text-x text-gray-400 tracking-widest uppercase text-center">
-          <br/>
-          <br/>
+        
+        {/* Texto abaixo do logo */}
+        <p className="text-xs text-gray-400 tracking-widest uppercase text-center relative z-10 mt-6">
           Systems. Strategy. Architecture.<br/>(Coming Soon)
         </p>
-      </div>
+      </a>
 
       {/* Skills */}
       <div className="lg:col-span-6 bg-[#25282E] rounded-3xl p-6 border border-white/5 flex flex-col">
