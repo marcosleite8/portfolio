@@ -21,7 +21,8 @@ export default function Home() {
           alt="Saevelis Logo" 
           className="w-full max-w-[280px] h-auto object-contain relative z-10 transition-transform duration-500 group-hover:scale-105"
         />
-        <p className="text-s text-gray-400 tracking-widest uppercase text-center">
+        <p className="text-x text-gray-400 tracking-widest uppercase text-center">
+          <br/>
           <br/>
           Systems. Strategy. Architecture.<br/>(Coming Soon)
         </p>
