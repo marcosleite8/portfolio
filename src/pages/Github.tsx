@@ -14,28 +14,12 @@ export default function Github() {
       url: "https://github.com/marcosleite8/dataverse-js-sdk/blob/main/dataverse-sdk_v2.js"
     },
     {
-      name: "power-pages-templates",
-      description: "A collection of reusable Liquid and JavaScript snippets for Microsoft Power Pages development.",
-      language: "Liquid / JavaScript",
-      stars: 12,
-      forks: 3,
-      url: "#"
-    },
-    {
-      name: "dataverse-api-wrapper",
-      description: "A lightweight wrapper for interacting with the Dataverse Web API using standard HTTP requests.",
-      language: "TypeScript",
-      stars: 8,
-      forks: 1,
-      url: "#"
-    },
-    {
-      name: "portfolio-website",
+      name: "My Portfolio Website",
       description: "My personal portfolio website built with React, Tailwind CSS, and a Bento Box design.",
       language: "TypeScript",
       stars: 5,
       forks: 0,
-      url: "#"
+      url: "https://marcosleite.pt"
     }
   ];
 
