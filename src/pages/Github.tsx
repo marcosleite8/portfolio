@@ -6,6 +6,14 @@ export default function Github() {
   // You can replace this with a fetch to the GitHub API if desired
   const repositories = [
     {
+      name: "Dataverse JS SDK v1.2 - Power Pages Edition",
+      description: "A lightweight, environment-agnostic JavaScript SDK to simplify CRUD operations on the Dataverse Web API across all Power Platform environments, optimized for Power Pages with `webapi.safeAjax` for automatic token security and robust error handling.",
+      language: "JavaScript",
+      stars: 5,
+      forks: 0,
+      url: "https://github.com/marcosleite8/dataverse-js-sdk/blob/main/dataverse-sdk_v2.js"
+    },
+    {
       name: "power-pages-templates",
       description: "A collection of reusable Liquid and JavaScript snippets for Microsoft Power Pages development.",
       language: "Liquid / JavaScript",
