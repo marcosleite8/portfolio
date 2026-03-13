@@ -12,21 +12,15 @@ export default function Home() {
       
       {/* Brand */}
       <div className="lg:col-span-4 bg-[#25282E] rounded-3xl p-8 flex flex-col items-center justify-center border border-white/5 relative overflow-hidden group">
+        {/* Efeito de brilho ao passar o mouse - mantido conforme solicitado */}
         <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-        <div className="w-20 h-20 mb-4 text-blue-400">
-          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M50 10 L90 30 L90 70 L50 90 L10 70 L10 30 Z" stroke="currentColor" strokeWidth="4" />
-            <path d="M50 10 L50 50 L90 30" stroke="currentColor" strokeWidth="4" />
-            <path d="M10 30 L50 50 L50 90" stroke="currentColor" strokeWidth="4" />
-            <circle cx="80" cy="20" r="5" fill="currentColor" />
-            <circle cx="95" cy="50" r="5" fill="currentColor" />
-            <circle cx="80" cy="80" r="5" fill="currentColor" />
-          </svg>
-        </div>
-        <h1 className="text-3xl font-bold tracking-tight mb-2">Saevelis.com</h1>
-        <p className="text-xs text-gray-400 tracking-widest uppercase text-center">
-          Systems. Strategy. Architecture.<br/>(Coming Soon)
-        </p>
+        
+        {/* Seu Logo */}
+        <img 
+          src="/logo_saevelis.png" 
+          alt="Saevelis Logo" 
+          className="w-full max-w-[280px] h-auto object-contain relative z-10 transition-transform duration-500 group-hover:scale-105"
+        />
       </div>
 
       {/* Skills */}
