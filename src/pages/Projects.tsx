@@ -8,7 +8,7 @@ export default function Projects() {
       type: "Professional Project",
       company: "Claranet Portugal",
       description: "Development of an enterprise web portal using Microsoft Power Pages integrated with Dataverse for data management and access. Implementation of custom logic using JavaScript and Liquid.",
-      tech: ["Power Pages", "Dataverse", "JavaScript", "Liquid", "REST API"],
+      tech: ["Power Pages", "Power Apps", "Dataverse", "JavaScript", "Liquid", "REST API"],
       icon: <Server size={24} className="text-[#0A66C2]" />,
       link: null
     },
