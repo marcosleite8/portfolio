@@ -13,6 +13,15 @@ export default function Projects() {
       link: null
     },
     {
+      title: "Saevelis AI Solution Builder",
+      type: "Personal Project",
+      company: "Saevelis",
+      description: "An AI-powered system that automatically designs Microsoft Power Platform solutions. Using multi-agent architecture, the platform analyzes business requirements, generates system architecture, defines Dataverse data models, and produces full technical documentation for Power Apps, Power Automate, and Power Pages implementations.",
+      tech: ["Python", "CrewAI", "LLMs", "Power Platform", "Dataverse", "AI Agents"],
+      icon: <Code2 size={24} className="text-purple-400" />,
+      link: null
+    },
+    {
       title: "Coming Soon",
       type: "Personal Project",
       company: "GitHub",
