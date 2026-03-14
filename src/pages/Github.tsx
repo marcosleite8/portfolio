@@ -16,7 +16,7 @@ export default function Github() {
     },
     {
       name: "My Portfolio Website",
-      description: "My personal portfolio website built with React, Tailwind CSS, and a Bento Box design.",
+      "description": "High-performance, responsive personal portfolio website with Bento Grid design, optimized for speed and professional aesthetics. Tech: TypeScript, React 19 (functional components & Hooks), Vite build tool, Tailwind CSS 4, React Router 7, Framer Motion animations, Lucide React icons. Features: Fully adaptive Bento layout for mobile/tablet/desktop, Dark Mode UI, fast load times, modular architecture.",
       language: "TypeScript",
       stars: 5,
       forks: 0,
