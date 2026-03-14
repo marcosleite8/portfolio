@@ -19,7 +19,7 @@ export default function Github() {
       language: "TypeScript",
       stars: 5,
       forks: 0,
-      url: "https://marcosleite.pt"
+      url: "https://github.com/marcosleite8/portfolio"
     }
   ];
 
