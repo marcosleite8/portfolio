@@ -70,6 +70,14 @@ export default function Github() {
         ))}
       </div>
 
+      <div className="relative z-10 flex flex-wrap gap-2 mt-auto pt-6 border-t border-white/5">
+              {project.tech.map((t, i) => (
+                <span key={i} className="bg-[#1E2126] border border-white/10 text-gray-300 text-[10px] font-medium uppercase tracking-wider px-3 py-1.5 rounded-full">
+                  {t}
+                </span>
+              ))}
+            </div>
+
       <div className="mt-8 bg-[#1E2126] border border-white/5 rounded-2xl p-6 text-center flex flex-col items-center justify-center">
         <p className="text-sm text-gray-400 mb-4">Visit my GitHub profile to see all projects.</p>
         <a 
