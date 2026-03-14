@@ -9,6 +9,7 @@ export default function Github() {
       name: "Dataverse JS SDK v1.2 - Power Pages Edition",
       description: "A lightweight, environment-agnostic JavaScript SDK to simplify CRUD operations on the Dataverse Web API across all Power Platform environments, optimized for Power Pages with `webapi.safeAjax` for automatic token security and robust error handling.",
       language: "JavaScript",
+      tech: ["Power Pages", "Power Apps", "Dataverse", "JavaScript", "Liquid", "REST API"],
       stars: 5,
       forks: 0,
       url: "https://github.com/marcosleite8/dataverse-js-sdk/blob/main/dataverse-sdk_v2.js"
