@@ -18,7 +18,7 @@ export default function Layout() {
         </div>
 
         {/* Floating Bottom Navigation */}
-        <div className="fixed bottom-6 md:bottom-8 left-1/2 transform -translate-x-1/2 bg-[#2A2D35]/90 backdrop-blur-md border border-white/10 rounded-full px-4 md:px-6 py-3 flex items-center gap-4 md:gap-6 shadow-2xl z-50 w-max max-w-[95vw] overflow-x-auto custom-scrollbar">
+        <div className="fixed bottom-4 md:bottom-2 left-1/2 transform -translate-x-1/2 bg-[#2A2D35]/90 backdrop-blur-md border border-white/10 rounded-full px-4 md:px-6 py-1.5 flex items-center gap-4 md:gap-6 shadow-2xl z-50 w-max max-w-[95vw] overflow-x-auto custom-scrollbar">
           <NavItem to="/" icon={<Home size={18} />} label="Home" />
           <NavItem to="/skills" icon={<Wrench size={18} />} label="Skills" />
           <NavItem to="/ebooks" icon={<Book size={18} />} label="Ebooks" />
