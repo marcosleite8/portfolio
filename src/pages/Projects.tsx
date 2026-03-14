@@ -1,5 +1,5 @@
 import React from 'react';
-import { Server, Github, ExternalLink, Code2 } from 'lucide-react';
+import { Server, Github, ExternalLink, Code2, Brain } from 'lucide-react';
 
 export default function Projects() {
   const projects = [
@@ -16,9 +16,9 @@ export default function Projects() {
       title: "Saevelis AI Solution Builder",
       type: "Personal Project",
       company: "Saevelis",
-      description: "An AI-powered system that automatically designs Microsoft Power Platform solutions. Using multi-agent architecture, the platform analyzes business requirements, generates system architecture, defines Dataverse data models, and produces full technical documentation for Power Apps, Power Automate, and Power Pages implementations.",
+      description: "A multi-agent AI system that acts as a virtual Power Platform architect. The platform gathers business requirements and automatically generates complete solution blueprints including Power Apps architecture, Dataverse schema, automation flows, integrations, and technical documentation. Designed to accelerate enterprise solution design and reduce consulting time from weeks to minutes.",
       tech: ["Python", "CrewAI", "LLMs", "Power Platform", "Dataverse", "AI Agents"],
-      icon: <Code2 size={24} className="text-purple-400" />,
+      icon: <Brain size={24} className="text-purple-400" />,
       link: null
     },
     {
